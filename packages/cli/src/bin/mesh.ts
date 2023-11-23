@@ -4,7 +4,6 @@ import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import { exit } from 'node:process'
 import {
-  isMonorepo,
   loadConfig,
   packageRoots,
   replaceConfigInString,
