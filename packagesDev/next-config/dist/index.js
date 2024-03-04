@@ -20,4 +20,3 @@ __exportStar(require("./utils/packageRoots"), exports);
 __exportStar(require("./withGraphCommerce"), exports);
 __exportStar(require("./generated/config"), exports);
 __exportStar(require("./config"), exports);
-__exportStar(require("./runtimeCachingOptimizations"), exports);

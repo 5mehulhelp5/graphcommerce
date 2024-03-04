@@ -20,7 +20,6 @@
   },
   "dependencies": {
     "@apollo/client": "~3.8.10",
-    "@ducanh2912/next-pwa": "9.7.2",
     "@graphcommerce/cli": "8.0.3-canary.6",
     "@graphcommerce/demo-magento-graphcommerce": "8.0.3-canary.6",
     "@graphcommerce/ecommerce-ui": "8.0.3-canary.6",
@@ -68,6 +67,7 @@
     "@graphcommerce/next-config": "8.0.3-canary.6",
     "@graphcommerce/next-ui": "8.0.3-canary.6",
     "@graphcommerce/react-hook-form": "8.0.3-canary.6",
+    "@graphcommerce/service-worker": "8.0.3-canary.6",
     "@lingui/core": "4.7.0",
     "@lingui/macro": "4.7.0",
     "@lingui/react": "4.7.0",
@@ -75,6 +75,7 @@
     "@mui/material": "5.15.5",
     "@next/env": "14.1.0",
     "@parcel/watcher": "^2.4.0",
+    "@serwist/next": "^8.4.4",
     "concurrently": "8.2.2",
     "cross-env": "^7.0.3",
     "dotenv": "16.3.1",
