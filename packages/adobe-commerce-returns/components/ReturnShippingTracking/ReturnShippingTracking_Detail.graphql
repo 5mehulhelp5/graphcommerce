@@ -1,0 +1,12 @@
+fragment ReturnShippingTracking_Detail on ReturnShippingTracking {
+  uid
+  carrier {
+    label
+    uid
+  }
+  status {
+    text
+    type
+  }
+  tracking_number
+}

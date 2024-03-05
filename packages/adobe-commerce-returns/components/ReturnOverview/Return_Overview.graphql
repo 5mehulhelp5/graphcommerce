@@ -1,0 +1,10 @@
+fragment Return_Overview on Return {
+  number
+  created_at
+  status
+  shipping {
+    address {
+      ...ReturnShippingAddress_Data
+    }
+  }
+}

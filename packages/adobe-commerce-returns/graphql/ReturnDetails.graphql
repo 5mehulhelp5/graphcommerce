@@ -1,0 +1,7 @@
+query ReturnsDetails($uid: ID!) {
+  customer {
+    return(uid: $uid) {
+      ...Return_Details
+    }
+  }
+}

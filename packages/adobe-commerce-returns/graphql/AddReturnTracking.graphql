@@ -1,0 +1,11 @@
+mutation AddReturnTracking($input: AddReturnTrackingInput!) {
+  addReturnTracking(input: $input) {
+    return_shipping_tracking {
+      uid
+      ...ReturnShippingTracking_Detail
+    }
+    return {
+      ...Return_Details
+    }
+  }
+}

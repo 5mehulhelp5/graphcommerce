@@ -1,0 +1,15 @@
+fragment ReturnShippingAddress_Data on ReturnShippingAddress {
+  contact_name
+  city
+  country {
+    full_name_locale
+  }
+  postcode
+  region {
+    code
+    id
+    name
+  }
+  street
+  telephone
+}

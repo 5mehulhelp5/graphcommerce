@@ -1,0 +1,39 @@
+fragment Return_Details on Return {
+  number
+  created_at
+  status
+  shipping {
+    address {
+      ...ReturnShippingAddress_Data
+    }
+    tracking {
+      ...ReturnShippingTracking_Detail
+    }
+  }
+  available_shipping_carriers {
+    label
+    uid
+  }
+  comments {
+    author_name
+    created_at
+    text
+    uid
+  }
+  order {
+    id
+    number
+  }
+  items {
+    order_item {
+      ...OrderItem
+    }
+    quantity
+    request_quantity
+    status
+    uid
+    custom_attributesV2 {
+      code
+    }
+  }
+}

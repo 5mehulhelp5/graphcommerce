@@ -1,0 +1,16 @@
+query OrdersEligibleForReturns($filter: CustomerOrdersFilterInput) {
+  customer {
+    orders(sort: { sort_field: CREATED_AT, sort_direction: DESC }, pageSize: 100, filter: $filter) {
+      items {
+        number
+        items_eligible_for_return {
+          product_name
+          product_sku
+          product_url_key
+          quantity_returned
+          eligible_for_return
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+export * from './graphql/ReturnsList.gql'
+export * from './graphql/ReturnDetails.gql'
+export * from './graphql/RequestReturn.gql'
+export * from './graphql/RemoveReturnTracking.gql'
+export * from './graphql/AddReturnTracking.gql'
+export * from './graphql/AddReturnComment.gql'

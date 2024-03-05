@@ -1,0 +1,7 @@
+mutation RemoveReturnTracking($input: RemoveReturnTrackingInput!) {
+  removeReturnTracking(input: $input) {
+    return {
+      ...Return_Details
+    }
+  }
+}

@@ -1,0 +1,7 @@
+mutation AddReturnComment($input: AddReturnCommentInput!) {
+  addReturnComment(input: $input) {
+    return {
+      ...Return_Details
+    }
+  }
+}

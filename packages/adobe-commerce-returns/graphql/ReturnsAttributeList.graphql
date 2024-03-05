@@ -1,0 +1,52 @@
+# Not yet available in Magento 2.4.6, only available in 2.4.7
+# query ReturnsAttributeList {
+#   attributesList(entityType: RMA_ITEM) {
+#     items {
+#       ... on ReturnItemAttributeMetadata {
+#         code
+#         default_value
+#         entity_type
+#         frontend_class
+#         frontend_input
+#         input_filter
+#         is_required
+#         is_unique
+#         label
+#         multiline_count
+#         options {
+#           is_default
+#           label
+#           value
+#         }
+#         sort_order
+#         validate_rules {
+#           name
+#           value
+#         }
+#       }
+#     }
+#   }
+# }
+
+query ReturnsAttributeList {
+  customAttributeMetadata(
+    attributes: [
+      { attribute_code: "resolution", entity_type: "rma_item" }
+      { attribute_code: "condition", entity_type: "rma_item" }
+      { attribute_code: "reason", entity_type: "rma_item" }
+      { attribute_code: "reason_other", entity_type: "rma_item" }
+    ]
+  ) {
+    items {
+      attribute_code
+      attribute_options {
+        is_default
+        label
+        value
+      }
+      attribute_type
+      entity_type
+      input_type
+    }
+  }
+}
