@@ -1,0 +1,10 @@
+fragment AppliedGiftCard_Data on AppliedGiftCard {
+  code
+  expiration_date
+  applied_balance {
+    ...Money
+  }
+  current_balance {
+    ...Money
+  }
+}

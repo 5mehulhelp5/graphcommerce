@@ -1,0 +1,1 @@
+# Adobe Commerce Store Credit

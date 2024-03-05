@@ -1,0 +1,15 @@
+fragment ProductPage_GiftCard on GiftCardProduct {
+  gift_card_options {
+    required
+    sort_order
+    title
+    uid
+  }
+  giftcard_amounts {
+    attribute_id
+    uid
+    value
+    website_value
+  }
+  giftcard_type
+}

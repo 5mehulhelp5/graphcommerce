@@ -1,0 +1,9 @@
+fragment OrderItem_GiftCard on GiftCardOrderItem {
+  gift_card {
+    message
+    recipient_email
+    recipient_name
+    sender_email
+    sender_name
+  }
+}

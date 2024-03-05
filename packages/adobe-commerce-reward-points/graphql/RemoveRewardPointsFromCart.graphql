@@ -1,0 +1,7 @@
+mutation RemoveRewardPointsFromCart($cartId: ID!) {
+  removeRewardPointsFromCart(cartId: $cartId) {
+    cart {
+      ...Cart_RewardPoints
+    }
+  }
+}

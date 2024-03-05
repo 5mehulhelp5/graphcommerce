@@ -1,0 +1,10 @@
+fragment Cart_StoreCredit on Cart {
+  applied_store_credit {
+    applied_balance {
+      ...Money
+    }
+    current_balance {
+      ...Money
+    }
+  }
+}

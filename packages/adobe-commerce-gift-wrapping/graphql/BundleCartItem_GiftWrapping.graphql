@@ -1,0 +1,9 @@
+fragment BundleCartItem_GiftWrapping on BundleCartItem @inject(into: ["CartItem"]) {
+  gift_wrapping {
+    ...GiftWrapping_Data
+  }
+
+  available_gift_wrapping {
+    ...GiftWrapping_Data
+  }
+}

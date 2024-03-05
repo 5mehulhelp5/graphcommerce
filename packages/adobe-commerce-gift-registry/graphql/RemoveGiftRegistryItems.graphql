@@ -1,0 +1,7 @@
+mutation RemoveGiftRegistryItems($uid: ID!, $itemsUid: [ID!]!) {
+  removeGiftRegistryItems(giftRegistryUid: $uid, itemsUid: $itemsUid) {
+    gift_registry {
+      ...GiftRegistry_Overview
+    }
+  }
+}

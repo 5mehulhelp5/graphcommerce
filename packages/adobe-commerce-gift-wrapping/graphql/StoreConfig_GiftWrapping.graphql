@@ -1,0 +1,9 @@
+fragment StoreConfig_GiftWrapping on StoreConfig {
+  allow_items
+  allow_order
+  cart_gift_wrapping
+  allow_gift_wrapping_on_order
+  allow_gift_wrapping_on_order_items
+  sales_gift_wrapping
+  allow_gift_receipt
+}

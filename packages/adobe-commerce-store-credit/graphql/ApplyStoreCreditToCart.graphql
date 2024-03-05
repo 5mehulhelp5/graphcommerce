@@ -1,0 +1,8 @@
+mutation ApplyStoreCreditToCart($input: ApplyStoreCreditToCartInput!) {
+  applyStoreCreditToCart(input: $input) {
+    cart {
+      ...Cart_StoreCredit
+      ...CartTotals
+    }
+  }
+}

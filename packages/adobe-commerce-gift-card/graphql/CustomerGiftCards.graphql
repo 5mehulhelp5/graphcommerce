@@ -1,0 +1,9 @@
+query GiftCardAccount($input: GiftCardAccountInput!) {
+  giftCardAccount(input: $input) {
+    balance {
+      ...Money
+    }
+    code
+    expiration_date
+  }
+}

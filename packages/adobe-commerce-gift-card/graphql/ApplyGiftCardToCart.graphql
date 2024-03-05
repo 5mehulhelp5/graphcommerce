@@ -1,0 +1,9 @@
+mutation ApplyGiftCardToCart($input: ApplyGiftCardToCartInput!) {
+  applyGiftCardToCart(input: $input) {
+    cart {
+      id
+      ...Cart_GiftCard
+      ...CartTotals
+    }
+  }
+}

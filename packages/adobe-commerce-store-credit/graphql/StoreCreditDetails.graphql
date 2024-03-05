@@ -1,0 +1,22 @@
+query StoreCreditDetails($currentPage: Int = 1, $pageSize: Int = 20) {
+  customer {
+    store_credit {
+      enabled
+      current_balance {
+        ...Money
+      }
+      balance_history(currentPage: $currentPage, pageSize: $pageSize) {
+        items {
+          action
+          date_time_changed
+          actual_balance {
+            ...Money
+          }
+          balance_change {
+            ...Money
+          }
+        }
+      }
+    }
+  }
+}

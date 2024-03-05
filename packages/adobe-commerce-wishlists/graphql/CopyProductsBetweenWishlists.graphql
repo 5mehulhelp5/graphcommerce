@@ -1,0 +1,22 @@
+mutation CopyProductsBetweenWishlists(
+  $sourceWishlistUid: ID!
+  $destinationWishlistUid: ID!
+  $wishlistItems: [WishlistItemCopyInput!]!
+) {
+  copyProductsBetweenWishlists(
+    sourceWishlistUid: $sourceWishlistUid
+    destinationWishlistUid: $destinationWishlistUid
+    wishlistItems: $wishlistItems
+  ) {
+    destination_wishlist {
+      id
+    }
+    source_wishlist {
+      id
+    }
+    user_errors {
+      code
+      message
+    }
+  }
+}

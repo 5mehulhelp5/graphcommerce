@@ -1,0 +1,9 @@
+mutation ShareGiftRegistry(
+  $uid: ID!
+  $invitees: [ShareGiftRegistryInviteeInput!]!
+  $sender: ShareGiftRegistrySenderInput!
+) {
+  shareGiftRegistry(giftRegistryUid: $uid, invitees: $invitees, sender: $sender) {
+    is_shared
+  }
+}

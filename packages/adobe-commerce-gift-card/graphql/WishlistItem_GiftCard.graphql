@@ -1,0 +1,15 @@
+fragment WishlistItem_GiftCard on GiftCardWishlistItem {
+  gift_card_options {
+    amount {
+      ...Money
+    }
+    custom_giftcard_amount {
+      ...Money
+    }
+    message
+    recipient_email
+    recipient_name
+    sender_email
+    sender_name
+  }
+}

@@ -1,0 +1,4 @@
+fragment StoreConfig_GiftMessage on StoreConfig {
+  allow_items
+  allow_order
+}

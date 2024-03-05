@@ -1,0 +1,5 @@
+query GiftRegistry($uid: ID!) {
+  giftRegistry(giftRegistryUid: $uid) {
+    ...GiftRegistry_Details
+  }
+}

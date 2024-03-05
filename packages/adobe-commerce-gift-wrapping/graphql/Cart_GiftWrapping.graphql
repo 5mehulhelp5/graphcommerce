@@ -1,0 +1,14 @@
+fragment Cart_GiftWrapping on Cart {
+  gift_receipt_included
+  gift_wrapping {
+    ...GiftWrapping_Data
+  }
+  gift_message {
+    from
+    to
+    message
+  }
+  available_gift_wrappings {
+    ...GiftWrapping_Data
+  }
+}

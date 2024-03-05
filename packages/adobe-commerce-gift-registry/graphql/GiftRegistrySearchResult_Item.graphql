@@ -1,0 +1,8 @@
+fragment GiftRegistrySearchResult_Item on GiftRegistrySearchResult {
+  event_date
+  event_title
+  gift_registry_uid
+  location
+  name
+  type
+}

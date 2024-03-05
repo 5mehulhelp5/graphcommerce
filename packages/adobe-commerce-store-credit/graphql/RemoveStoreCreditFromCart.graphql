@@ -1,0 +1,8 @@
+mutation RemoveStoreCreditFromCart($input: RemoveStoreCreditFromCartInput!) {
+  removeStoreCreditFromCart(input: $input) {
+    cart {
+      ...Cart_StoreCredit
+      ...CartTotals
+    }
+  }
+}

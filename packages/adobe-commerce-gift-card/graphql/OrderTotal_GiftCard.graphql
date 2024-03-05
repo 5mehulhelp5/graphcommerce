@@ -1,0 +1,5 @@
+fragment OrderTotal_GiftCard on OrderTotal {
+  total_giftcard {
+    ...Money
+  }
+}

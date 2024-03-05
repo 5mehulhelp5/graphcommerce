@@ -1,0 +1,8 @@
+fragment GiftRegistryDynamicAttributeMetadata_Data on GiftRegistryDynamicAttributeMetadata {
+  attribute_group
+  code
+  input_type
+  is_required
+  label
+  sort_order
+}

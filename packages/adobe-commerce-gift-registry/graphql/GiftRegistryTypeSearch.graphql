@@ -1,0 +1,9 @@
+query GiftRegistryTypeSearch($firstName: String!, $lastName: String!, $giftRegistryTypeUid: ID) {
+  giftRegistryTypeSearch(
+    firstName: $firstName
+    lastName: $lastName
+    giftRegistryTypeUid: $giftRegistryTypeUid
+  ) {
+    ...GiftRegistrySearchResult_Item
+  }
+}

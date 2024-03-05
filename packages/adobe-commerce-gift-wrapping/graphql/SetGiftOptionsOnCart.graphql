@@ -1,0 +1,7 @@
+mutation SetGiftOptionsOnCart($input: SetGiftOptionsOnCartInput!) {
+  setGiftOptionsOnCart(input: $input) {
+    cart {
+      ...Cart_GiftCard
+    }
+  }
+}

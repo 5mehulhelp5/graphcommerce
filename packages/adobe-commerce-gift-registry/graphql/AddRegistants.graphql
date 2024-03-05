@@ -1,0 +1,10 @@
+mutation AddGiftRegistryRegistrants(
+  $giftRegistryUid: ID!
+  $registrants: [AddGiftRegistryRegistrantInput!]!
+) {
+  addGiftRegistryRegistrants(giftRegistryUid: $giftRegistryUid, registrants: $registrants) {
+    gift_registry {
+      ...GiftRegistry_Overview
+    }
+  }
+}

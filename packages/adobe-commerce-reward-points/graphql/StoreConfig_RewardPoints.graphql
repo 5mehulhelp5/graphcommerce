@@ -1,0 +1,16 @@
+fragment StoreConfig_RewardPoints on StoreConfig {
+  magento_reward_general_is_enabled
+  magento_reward_general_is_enabled_on_front
+  magento_reward_general_min_points_balance
+  magento_reward_general_publish_history
+  magento_reward_points_invitation_customer
+  magento_reward_points_invitation_customer_limit
+  magento_reward_points_invitation_order
+  magento_reward_points_invitation_order_limit
+  magento_reward_points_newsletter
+  magento_reward_points_order
+  magento_reward_points_register
+  magento_reward_points_review
+  magento_reward_points_review
+  magento_reward_points_review_limit
+}

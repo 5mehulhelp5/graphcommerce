@@ -1,0 +1,12 @@
+fragment GiftWrapping_Data on GiftWrapping {
+  uid
+  price {
+    currency
+    value
+  }
+  design
+  image {
+    label
+    url
+  }
+}

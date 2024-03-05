@@ -1,0 +1,7 @@
+mutation CreateGiftRegistry($giftRegistry: CreateGiftRegistryInput!) {
+  createGiftRegistry(giftRegistry: $giftRegistry) {
+    gift_registry {
+      ...GiftRegistry_Overview
+    }
+  }
+}

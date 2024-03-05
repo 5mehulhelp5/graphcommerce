@@ -1,0 +1,9 @@
+fragment ConfigurableCartItem_GiftWrapping on ConfigurableCartItem @inject(into: ["CartItem"]) {
+  gift_wrapping {
+    ...GiftWrapping_Data
+  }
+
+  available_gift_wrapping {
+    ...GiftWrapping_Data
+  }
+}

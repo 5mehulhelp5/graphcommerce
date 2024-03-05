@@ -1,0 +1,9 @@
+fragment Cart_RewardPoints on Cart {
+  applied_reward_points {
+    money {
+      ...Money
+    }
+    points
+  }
+  ...CartTotals
+}

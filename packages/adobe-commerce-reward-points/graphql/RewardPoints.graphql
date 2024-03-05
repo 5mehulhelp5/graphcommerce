@@ -1,0 +1,23 @@
+query {
+  customer {
+    reward_points {
+      balance {
+        money {
+          ...Money
+        }
+        points
+      }
+      balance_history {
+        balance {
+          money {
+            ...Money
+          }
+          points
+        }
+        change_reason
+        date
+        points_change
+      }
+    }
+  }
+}

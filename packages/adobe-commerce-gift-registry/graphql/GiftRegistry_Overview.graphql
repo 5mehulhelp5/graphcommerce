@@ -1,0 +1,4 @@
+fragment GiftRegistry_Overview on GiftRegistry {
+  created_at
+  event_name
+}

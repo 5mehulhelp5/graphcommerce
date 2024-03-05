@@ -1,0 +1,7 @@
+fragment CartItem_GiftCard on GiftCardCartItem {
+  message
+  recipient_email
+  recipient_name
+  sender_email
+  sender_name
+}

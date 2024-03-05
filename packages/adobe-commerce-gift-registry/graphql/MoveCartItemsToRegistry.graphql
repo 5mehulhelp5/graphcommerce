@@ -1,0 +1,15 @@
+mutation MoveCartItemsToRegistry($cartUid: ID!, $giftRegistryUid: ID!) {
+  moveCartItemsToGiftRegistry(cartUid: $cartUid, giftRegistryUid: $giftRegistryUid) {
+    gift_registry {
+      ...GiftRegistry_Overview
+    }
+    status
+    user_errors {
+      code
+      gift_registry_item_uid
+      gift_registry_uid
+      message
+      product_uid
+    }
+  }
+}

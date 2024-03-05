@@ -1,0 +1,5 @@
+mutation RemoveGiftRegistry($uid: ID!) {
+  removeGiftRegistry(giftRegistryUid: $uid) {
+    success
+  }
+}

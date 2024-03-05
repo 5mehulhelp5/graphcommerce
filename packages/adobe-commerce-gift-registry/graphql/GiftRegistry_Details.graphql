@@ -1,0 +1,28 @@
+fragment GiftRegistry_Details on GiftRegistry {
+  uid
+  type {
+    label
+    dynamic_attributes_metadata {
+      ...GiftRegistryDynamicAttributeMetadata_Data
+    }
+    uid
+  }
+  dynamic_attributes {
+    code
+    group
+    label
+    value
+  }
+  event_name
+  items {
+    created_at
+    note
+    product {
+      ...ProductListITem
+    }
+    quantity
+    quantity_fulfilled
+    uid
+  }
+  created_at
+}

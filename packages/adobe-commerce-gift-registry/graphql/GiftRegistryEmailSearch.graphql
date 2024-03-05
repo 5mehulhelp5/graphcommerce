@@ -1,0 +1,5 @@
+query GiftRegistryEmailSearch($email: String!) {
+  giftRegistryEmailSearch(email: $email) {
+    ...GiftRegistrySearchResult_Item
+  }
+}

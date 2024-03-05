@@ -1,0 +1,8 @@
+mutation RemoveGiftCardFromCart($input: RemoveGiftCardFromCartInput!) {
+  removeGiftCardFromCart(input: $input) {
+    cart {
+      id
+      ...Cart_GiftCard
+    }
+  }
+}

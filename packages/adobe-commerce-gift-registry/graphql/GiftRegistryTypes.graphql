@@ -1,0 +1,7 @@
+query {
+  giftRegistryTypes {
+    dynamic_attributes_metadata {
+      ...GiftRegistryDynamicAttributeMetadata_Data
+    }
+  }
+}

@@ -1,0 +1,5 @@
+fragment Cart_GiftCard on Cart {
+  applied_gift_cards {
+    ...AppliedGiftCard_Data
+  }
+}

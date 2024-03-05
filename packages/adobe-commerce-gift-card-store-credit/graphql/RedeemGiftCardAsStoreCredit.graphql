@@ -1,0 +1,9 @@
+mutation RedeemGiftCardAsStoreCredit($input: GiftCardAccountInput!) {
+  redeemGiftCardBalanceAsStoreCredit(input: $input) {
+    balance {
+      ...Money
+    }
+    code
+    expiration_date
+  }
+}

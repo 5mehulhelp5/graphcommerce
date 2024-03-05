@@ -1,0 +1,7 @@
+mutation ApplyRewardPointsToCart($cartId: ID!) {
+  applyRewardPointsToCart(cartId: $cartId) {
+    cart {
+      ...Cart_RewardPoints
+    }
+  }
+}

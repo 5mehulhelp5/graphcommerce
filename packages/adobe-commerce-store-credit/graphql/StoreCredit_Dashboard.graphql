@@ -1,0 +1,8 @@
+fragment StoreCredit_Dashboard on Customer @inject(into: ["AccountDashboardCustomer"]) {
+  store_credit {
+    enabled
+    current_balance {
+      ...Money
+    }
+  }
+}
