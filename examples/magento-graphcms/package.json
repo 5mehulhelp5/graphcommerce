@@ -79,6 +79,7 @@
     "@mui/utils": "^5.16.6",
     "@next/env": "14.2.14",
     "@parcel/watcher": "^2.4.1",
+    "@reachdigital/oci-sessions": "file:../../packages/oci-sessions",
     "@unts/patch-package": "^8.0.0",
     "concurrently": "8.2.2",
     "cross-env": "^7.0.3",

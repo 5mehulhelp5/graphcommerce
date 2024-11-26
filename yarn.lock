@@ -3973,6 +3973,7 @@ __metadata:
     "@next/env": "npm:14.2.14"
     "@parcel/watcher": "npm:^2.4.1"
     "@playwright/test": "npm:1.47.2"
+    "@reachdigital/oci-sessions": "file:../../packages/oci-sessions"
     "@types/node": "npm:^18.19.54"
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.0"
@@ -7653,6 +7654,41 @@ __metadata:
   checksum: 10c0/4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
   languageName: node
   linkType: hard
+
+"@reachdigital/oci-sessions@file:../../packages/oci-sessions::locator=%40graphcommerce%2Fmagento-graphcms%40workspace%3Aexamples%2Fmagento-graphcms":
+  version: 9.0.0-canary.96
+  resolution: "@reachdigital/oci-sessions@file:../../packages/oci-sessions#../../packages/oci-sessions::hash=aba9c8&locator=%40graphcommerce%2Fmagento-graphcms%40workspace%3Aexamples%2Fmagento-graphcms"
+  peerDependencies:
+    "@graphcommerce/eslint-config-pwa": ^9.0.0-canary.96
+    "@graphcommerce/magento-customer": ^9.0.0-canary.96
+    "@graphcommerce/next-config": ^9.0.0-canary.96
+    "@graphcommerce/prettier-config-pwa": ^9.0.0-canary.96
+    "@graphcommerce/react-hook-form": ^9.0.0-canary.96
+    "@graphcommerce/typescript-config-pwa": ^9.0.0-canary.96
+    "@mui/material": ^5.14.20
+    next: ^14
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/4d6ecce906bcc9a139f49e100fc1ce33626503ac96603f5c591e4ba653a46fb3051512589f3f8d0f5f32b610c14934ef5499e964f13d5ab0a94f5a1c533bd1a0
+  languageName: node
+  linkType: hard
+
+"@reachdigital/oci-sessions@workspace:packages/oci-sessions":
+  version: 0.0.0-use.local
+  resolution: "@reachdigital/oci-sessions@workspace:packages/oci-sessions"
+  peerDependencies:
+    "@graphcommerce/eslint-config-pwa": ^9.0.0-canary.96
+    "@graphcommerce/magento-customer": ^9.0.0-canary.96
+    "@graphcommerce/next-config": ^9.0.0-canary.96
+    "@graphcommerce/prettier-config-pwa": ^9.0.0-canary.96
+    "@graphcommerce/react-hook-form": ^9.0.0-canary.96
+    "@graphcommerce/typescript-config-pwa": ^9.0.0-canary.96
+    "@mui/material": ^5.14.20
+    next: ^14
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  languageName: unknown
+  linkType: soft
 
 "@repeaterjs/repeater@npm:^3.0.4, @repeaterjs/repeater@npm:^3.0.6":
   version: 3.0.6
